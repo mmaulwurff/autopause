@@ -10,7 +10,8 @@ game, and come back to discover that a lot of nasty things happened in the game.
 
 # How to use
 
-1. Load autopause.pk3, or add it to autoloads in gzdoom.ini.
+1. Load autopause-v*.pk3, or add it to autoloads in gzdoom.ini. Mind the version in
+   the file name.
 2. Add this line to your autoexec.cfg:
 ```
 wait 1; ap_check
