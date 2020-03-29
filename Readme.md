@@ -21,11 +21,19 @@ Or, alternatively, type `ap_check` in console each time you launch GZDoom.
 
 # How to tune
 
+## Time
+
 The time after which the pause is engaged is not configurable in the options,
 however, you can open this mod with Slade, go to keyconf.txt, find the line that
-starts with `wait 350;`, and change 350 to whatever you like. This time is in
-game ticks. One second is exactly 35 tics. It takes from one to two specified
-time values to engage the pause.
+starts with `alias ap_check "wait 350;`, and change 350 to whatever you
+like. This time is in game ticks. One second is exactly 35 tics. It takes from
+one to two specified time values to engage the pause.
+
+## Pause
+
+Another option is to open main menu instead of pausing the game. To do this,
+open the mod with Slade, go to keyconf.txt, find the line that starts with
+`alias ap_pause`, and change `pause` at the end with `openmenu mainmenu`.
 
 # Info
 
