@@ -1,0 +1,5 @@
+alias ap_noop      ""
+alias ap_pause     "eval + $ap_oldtime 1 ap_pausetime; pause"
+alias ap_setpaused "eval == $ap_pausetime $ap_oldtime ap_paused"
+alias ap_debug     "" //"ap_active; ap_oldtime; ap_pausetime; ap_paused"
+alias ap_check     "wait 350; ap_setpaused; wait 1; ap_debug; test || $ap_active $ap_paused ap_noop ap_pause; ap_active 0; ap_check"

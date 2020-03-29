@@ -1,0 +1,4 @@
+server bool ap_active    = true;
+server int  ap_oldtime   = 0;
+server int  ap_pausetime = 0;
+server bool ap_paused    = false;
