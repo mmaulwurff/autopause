@@ -30,5 +30,7 @@ time values to engage the pause.
 # Info
 
 Author: m8f
+
 License: GPLv3
-This mod is a part of [m8f's toolbox](https://mmaulwurff.github.io/pages/toolbox)
+
+This mod is a part of [m8f's toolbox](https://mmaulwurff.github.io/pages/toolbox).
