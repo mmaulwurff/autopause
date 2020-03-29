@@ -2,8 +2,7 @@
 
 set -e
 
-#filename=autopause-$(git describe --abbrev=0 --tags).pk3
-filename=autopause.pk3
+filename=autopause-$(git describe --abbrev=0 --tags).pk3
 
 rm -f $filename
 
